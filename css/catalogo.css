@@ -1,0 +1,49 @@
+body {
+  font-family: helvetica;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+.defaul {
+  background-color: #E5E5E5;
+  padding-top: 3%;
+  font-weight: bold;
+}
+ .azul {
+   color: #428BCA;
+ }
+.muestra {
+  padding: 3%;
+  background-color: #F7F7F7;
+  margin-top: 3%;
+  padding-top: 8%;
+}
+
+li {
+  list-style: none;
+}
+
+input+ a {
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 15px
+}
+
+.pl {
+  padding-left: 3%;
+}
+
+.black {
+  background-color: #555555;
+  color: #fff;
+}
+
+.hel {
+  font-size: 13px;
+  background-color: #CCCCCC;
+}
+
+.mb {
+  margin-bottom: 15%;
+}
