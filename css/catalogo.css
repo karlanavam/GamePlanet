@@ -1,0 +1,33 @@
+body {
+  font-family: helvetica;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+.defaul {
+  background-color: #E5E5E5;
+  padding-top: 3%;
+}
+
+.muestra {
+  padding: 3%;
+  background-color: #F7F7F7;
+  color: #428BCA;
+  font-weight: bold;
+  margin-top: 3%;
+  padding-top: 8%;
+}
+
+.pl {
+  padding-left: 3%;
+}
+
+.hel {
+  font-size: 13px;
+  background-color: #CCCCCC;
+}
+
+.mb {
+  margin-bottom: 15%;
+}
