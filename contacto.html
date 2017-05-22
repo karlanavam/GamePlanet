@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title></title>
-  </head>
-  <body>
-    <footer>
-      <section class="row padding background">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+</head>
+
+<body>
+  <section id="contacto" class="row" style="background-color:black;" >
+    <div class="col-md-4 col-md-offset-4	col-xs-8 col-xs-offset-2 center">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1 labels">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1 labels">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+
+    </div>
+  </section>
+  <footer>
+  <section class="row padding background">
         <div id="servicio_cliente" class="col-md-3">
           <ul>
             <h4>Información</h4>
@@ -70,9 +90,7 @@
           </div>
         </div>
       </section>
-      <section class="row">
 
-      </section>
-    </footer>
-  </body>
+  </footer>
+</body>
 </html>
