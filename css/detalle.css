@@ -15,3 +15,11 @@ p.sub-text.descripcion{
 #carousel-text{
 	font-size: 1em;
 }
+.mas{
+	width: 450px;
+	height: 400px;
+	padding: 2em;
+}
+#masProductos{
+	text-align: center;
+}
