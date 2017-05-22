@@ -1,0 +1,19 @@
+header{
+    background-color: yellow;    
+}
+
+#logoHeader {
+    width: 37%;
+}
+
+.p-car {
+    padding-left: 13%;
+}
+
+.p-carNeg {
+    padding-left: -15%;
+}
+
+.bg-Car {
+    background-color: crimson;
+}
