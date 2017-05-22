@@ -3,3 +3,15 @@ list-style:none;
 margin-left: -40px;
 margin-top:20px;
 }
+button.btn.btn-success.loQuiero{
+	width: 100%;
+}
+p.sub-text.descripcion{
+	text-align: justify;
+}
+#nombreProducto, h3{
+	text-align: center;
+}
+#carousel-text{
+	font-size: 1em;
+}
