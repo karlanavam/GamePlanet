@@ -1,0 +1,24 @@
+/*-----ESTILOS GENERALES-----*/
+.pl-3{
+    padding-left: 3%;
+}
+
+
+
+
+/*-----ESTILOS GENERALES-----*/
+
+
+/*------Inicio Estilos Mone----*/
+.orange:hover {
+  color:orange;
+  text-decoration:none;
+}
+.textoNegro {
+  color: black;
+}
+
+nav div{
+    background-color: #575151;
+}
+/*------Fin Estilos Mone----*/
