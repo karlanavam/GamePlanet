@@ -8,19 +8,35 @@ body {
 .defaul {
   background-color: #E5E5E5;
   padding-top: 3%;
+  font-weight: bold;
 }
-
+ .azul {
+   color: #428BCA;
+ }
 .muestra {
   padding: 3%;
   background-color: #F7F7F7;
-  color: #428BCA;
-  font-weight: bold;
   margin-top: 3%;
   padding-top: 8%;
 }
 
+li {
+  list-style: none;
+}
+
+input+ a {
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 15px
+}
+
 .pl {
   padding-left: 3%;
+}
+
+.black {
+  background-color: #555555;
+  color: #fff;
 }
 
 .hel {

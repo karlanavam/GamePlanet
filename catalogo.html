@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,13 +9,14 @@
   <link rel="stylesheet" href="css/catalogo.css">
   <title></title>
 </head>
+
 <body>
   <div class="container">
     <div class="row">
       <div class="col-md-3">
         <div class="resulBusqueda mb">
-          <span><a href="http://gameplanet.com/">Inicio ></a></span>
-          <span><a href="#"> Catalogo ></a></span>
+          <span><a href="http://gameplanet.com/">Inicio</a><span> > </span></span>
+          <span><a href="#"> Catalogo </a><span> > </span></span>
           <span><a href="#"> Consolas</a></span>
         </div>
         <div class="busqueda defaul">
@@ -22,16 +24,45 @@
             <h4>FILTRAR POR    | </h4>
           </div>
           <div class="muestra">
-            <p>Mostrar Inventario</p>
-          <ul class="nav nav-pills nav-stacked">
-            <li role="presentation"><button class="btn btn-default btn-block hel">Con inventario en tiendas y/o en línea</button></li>
-            <li role="presentation"><button class="btn btn-default btn-block hel">Con inventario solo en línea</button></li>
-            <li role="presentation"><button class="btn btn-default btn-block hel">Todo el catalogo incluso sin inventario</button></li>
-          </ul>
+            <p class="azul">Mostrar Inventario</p>
+            <ul class="nav nav-pills nav-stacked">
+              <li role="presentation"><button class="btn btn-default btn-block hel">Con inventario en tiendas y/o en línea</button></li>
+              <li role="presentation"><button class="btn btn-default btn-block hel">Con inventario solo en línea</button></li>
+              <li role="presentation"><button class="btn btn-default btn-block hel">Todo el catalogo incluso sin inventario</button></li>
+            </ul>
+            <hr>
+            <button class="btn btn-block btn-reverse black">Precio: $4950 - $11700</button><br>
+            <p class="azul"> Borrar Todo</p>
+            <div class="input-group">
+              <input type="text" class="form-control" aria-describedby="basic-addon2">
+              <span class="input-group-addon" id="basic-addon2">Buscar</span>
+            </div>
+            <hr>
+            <p class="preven"> Preventa</p>
+            <select name="" id="" class="dropdown">
+              <option value="-All-">-All-</option>
+            </select>
+            <hr>
+            <p class="preven"> Categoria</p>
+            <select name="" id="" class="dropdown">
+              <option value="-All-">-All-</option>
+            </select>
+            <hr>
+            <p> Franquicia</p>
+            <ul class="list-group">
+              <li><input type="checkbox"><a href="#">Fifa (1)</a></li>
+              <li><input type="checkbox" ><a href="#">Pokemon (2)</a></li>
+              <li><input type="checkbox"><a href="#">Zelda (1)</a></li>
+              <li><input type="checkbox"> <a href="#">Play Station (1)</a></li>
+            </ul>
+            <hr>
+
           </div>
+
         </div>
       </div>
     </div>
   </div>
 </body>
+
 </html>
